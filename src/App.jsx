@@ -14,7 +14,6 @@ function App() {
   const incrementar = () => {
     setMinYear(year);
     setYear(getYear(year, maxYear));
-    console.log(minYear);
   };
 
   //una funcion que decrementa el año en la mitad de los
@@ -23,7 +22,6 @@ function App() {
   const decrementar = () => {
     setMaxYear(year);
     setYear(getYear(minYear, year));
-    console.log(maxYear);
   };
 
   //una funcion que dado dos año 1999 y 2022 me devuelva el año que esta en la mitad de esos dos
